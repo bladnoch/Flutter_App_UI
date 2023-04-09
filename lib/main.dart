@@ -1,6 +1,6 @@
 /*
     main.dart
-    creat flutter application for practice to make UI
+    creat flutter application for practice to make UI, and webtoon app.
     4-9-2023
     Dounguk Kim
  */
