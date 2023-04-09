@@ -1,6 +1,20 @@
+/*
+    main.dart
+    creat flutter application for practice to make UI
+    4-9-2023
+    Dounguk Kim
+ */
 import 'package:flutter/material.dart';
 
+class Player{ //클래스 연습용 지워도 되는 클래스
+  String? name;
+  Player({this.name});
+
+}
+
+
 void main() {
+  var player=Player(name: "Daniel");  // 클래스 연습용 지워도 됨
   runApp(App());
 }
 
