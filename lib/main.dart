@@ -24,14 +24,14 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
   Widget build(BuildContext context){ //StatelessWidget을 사용할때 build()를 만들어 줘야한다.
     return MaterialApp( // 디자인의 기본 형태(MaterialApp: 안드로이드)
         home: Scaffold( // 디자인의 기본 뼈대(Scaffold)
-          backgroundColor: Color(0xff181818) ,
+          backgroundColor: Color(0xff181818) , //0xFF + rgb값
           body: Padding( // 4 방향 외곽 간격
             padding: EdgeInsets.symmetric(
               horizontal: 40, //패팅
             ),
             child: Column(
             children: [
-              SizedBox(
+              SizedBox( //박스를 만들어줌
                 height: 80, //위를 기준으로 위치
               ),
               Row(
