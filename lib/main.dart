@@ -5,6 +5,7 @@
     Dounguk Kim
  */
 import 'package:flutter/material.dart';
+import 'package:myflutterproject/button.dart';
 
 class Player{ //클래스 연습용 지워도 되는 클래스
   String? name;
@@ -81,40 +82,15 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                 Row( //row for two buttons next each other
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      decoration: BoxDecoration(
-                        color: const Color(0xfff2b33a),
-                        borderRadius: BorderRadius.circular(45) //side
-                      ),
-                      child: const Padding(
-                        padding: EdgeInsets.symmetric(
-                          vertical: 20,
-                          horizontal: 50,
-                        ),
-                        child: Text("Transfer",
-                          style: TextStyle(
-                            fontSize: 20,
-                          ),
-                        ),
-                      ),
+                    Button(
+                      text:"Transfer" ,
+                      bgColor: Color(0xfff2b33a),
+                      textColor: Colors.black,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          color: const Color(0xff1F2123),
-                          borderRadius: BorderRadius.circular(45) //side
-                      ),
-                      child: const Padding(
-                        padding: EdgeInsets.symmetric(
-                          vertical: 20,
-                          horizontal: 50,
-                        ),
-                        child: Text("Request",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                          ),
-                        ),
-                      ),
+                    Button(
+                        text: "Request",
+                        bgColor: Color(0xff1F2123),
+                        textColor: Colors.white,
                     ),
                   ],
                 )
