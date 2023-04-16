@@ -1,11 +1,12 @@
-/*
-    main.dart
-    creat flutter application for practice to make UI, and webtoon app.
-    4-9-2023
-    Dounguk Kim
- */
 import 'package:flutter/material.dart';
 import 'package:myflutterproject/button.dart';
+
+/// main.dart
+/// creat flutter application for practice to make UI, and webtoon app.
+/// 4-9-2023
+/// Dounguk Kim
+
+
 
 class Player{ //클래스 연습용 지워도 되는 클래스
   String? name;
@@ -13,9 +14,7 @@ class Player{ //클래스 연습용 지워도 되는 클래스
 
 }
 
-
 void main() {
-  var player=Player(name: "Daniel");  // 클래스 연습용 지워도 됨
   runApp(App());
 }
 

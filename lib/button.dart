@@ -1,7 +1,9 @@
-
-
-
 import 'package:flutter/cupertino.dart';
+
+/// button.dart
+/// Transfer, Request button widget
+/// 4-16-2023
+/// Dounguk Kim
 
 class Button extends StatelessWidget{
   final String text;
