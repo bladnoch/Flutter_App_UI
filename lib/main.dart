@@ -27,7 +27,7 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
           backgroundColor: const Color(0xff181818) , //0xFF + rgb값
           body: Padding( // 4 방향 외곽 간격
             padding: const EdgeInsets.symmetric(
-              horizontal: 40, //패팅
+              horizontal: 20, //패팅
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,6 +79,7 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                 height: 30,
               ),
                 Row( //row for two buttons next each other
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
                       decoration: BoxDecoration(
@@ -88,10 +89,28 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                       child: const Padding(
                         padding: EdgeInsets.symmetric(
                           vertical: 20,
-                          horizontal: 40,
+                          horizontal: 50,
                         ),
                         child: Text("Transfer",
                           style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                          color: const Color(0xff1F2123),
+                          borderRadius: BorderRadius.circular(45) //side
+                      ),
+                      child: const Padding(
+                        padding: EdgeInsets.symmetric(
+                          vertical: 20,
+                          horizontal: 50,
+                        ),
+                        child: Text("Request",
+                          style: TextStyle(
+                            color: Colors.white,
                             fontSize: 20,
                           ),
                         ),
