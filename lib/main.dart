@@ -127,19 +127,25 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                     icon: Icons.euro_rounded,
                     isInverted: false,
                   ),
-                   CurrencyCard(
-                        name: "Bitcoin",
-                      code: "BTC",
-                      amount: "9 785",
-                      icon: Icons.currency_bitcoin_rounded,
-                    isInverted: true,
+                   Transform.translate(
+                     offset: Offset(0,-20),
+                     child: CurrencyCard(
+                          name: "Bitcoin",
+                        code: "BTC",
+                        amount: "9 785",
+                        icon: Icons.currency_bitcoin_rounded,
+                      isInverted: true,
                   ),
-                  CurrencyCard(
-                    name: "Dollar",
-                    code: "USD",
-                    amount: "428",
-                    icon: Icons.attach_money_rounded,
-                    isInverted: false,
+                   ),
+                  Transform.translate(
+                    offset: Offset(0,-40),
+                    child: CurrencyCard(
+                      name: "Dollar",
+                      code: "USD",
+                      amount: "428",
+                      icon: Icons.attach_money_rounded,
+                      isInverted: false,
+                    ),
                   ),
               ],
             ),
