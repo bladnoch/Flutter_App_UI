@@ -161,8 +161,8 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                         Transform.scale(
                           scale: 2.2,
                           child: Transform.translate(
-                            offset: Offset(-5,12),
-                            child: Icon(
+                            offset: const Offset(-5,12),
+                            child: const Icon(
                               Icons.euro_rounded,
                               color: Colors.white,
                               size: 88,
