@@ -121,31 +121,31 @@ class App extends StatelessWidget{ // StatelessWidget: 무언가를 화면에 �
                   const SizedBox(
                     height: 20,
                   ),
-                   CurrencyCard(
+                   const CurrencyCard(
                     name: "Euro",
                     code: "EUR", amount: "6 428",
                     icon: Icons.euro_rounded,
                     isInverted: false,
+                     offX: 0,
+                     offY: 0,
                   ),
-                   Transform.translate(
-                     offset: Offset(0,-20),
-                     child: CurrencyCard(
+                  const CurrencyCard(
                           name: "Bitcoin",
                         code: "BTC",
                         amount: "9 785",
                         icon: Icons.currency_bitcoin_rounded,
                       isInverted: true,
+                    offX: 0,
+                    offY: -20,
                   ),
-                   ),
-                  Transform.translate(
-                    offset: Offset(0,-40),
-                    child: CurrencyCard(
-                      name: "Dollar",
-                      code: "USD",
-                      amount: "428",
-                      icon: Icons.attach_money_rounded,
-                      isInverted: false,
-                    ),
+                  const CurrencyCard(
+                    name: "Dollar",
+                    code: "USD",
+                    amount: "428",
+                    icon: Icons.attach_money_rounded,
+                    isInverted: false,
+                    offX: 0,
+                    offY: -40,
                   ),
               ],
             ),
