@@ -32,7 +32,8 @@ class _AppState extends State<App>{
       theme: ThemeData( //theme 추가 주제는 붉은색
         textTheme: TextTheme(
           titleLarge: TextStyle(
-            color: Colors.red,
+            color: Colors.green[900],
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),
@@ -42,9 +43,10 @@ class _AppState extends State<App>{
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                showTitle ? MyLargeTitle(): Text("nothing"),
+                showTitle ? MyLargeTitle(): Text("Nothing"),
                 IconButton(onPressed: toggleTitle,
-                  icon: Icon( Icons.remove_red_eye),),
+                  icon: showTitle ? Icon( Icons.cached_outlined) :
+                  Icon( Icons.remove_red_eye),),
             ],)
           ),
         ),
