@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84e46360-8ab9-4588-a54b-ec73fab3d69e" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/flutter UI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flutter UI/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter stateful widgets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flutter stateful widgets/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="84e46360-8ab9-4588-a54b-ec73fab3d69e" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,13 +44,15 @@
     &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flutter UI/lib/photos" />
+      <recent name="$PROJECT_DIR$/flutter stateful widgets/lib/photos" />
       <recent name="$PROJECT_DIR$/flutter UI" />
       <recent name="$PROJECT_DIR$/lib/photos" />
       <recent name="$PROJECT_DIR$/lib/widgets" />
@@ -98,7 +97,11 @@
       <workItem from="1682521927732" duration="132000" />
       <workItem from="1682526338480" duration="39000" />
       <workItem from="1682534133901" duration="822000" />
-      <workItem from="1682535656039" duration="580000" />
+      <workItem from="1682535656039" duration="985000" />
+      <workItem from="1682665772217" duration="600000" />
+      <workItem from="1682770623533" duration="69000" />
+      <workItem from="1682770701246" duration="138000" />
+      <workItem from="1682770841982" duration="148000" />
     </task>
     <servers />
   </component>
@@ -110,7 +113,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
