@@ -1,6 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+/// main.dart
+/// first study of stateful widget
+/// @since 4-27-2023
+/// @author Dounguk Kim
 void main(){
   runApp(App());
 }
