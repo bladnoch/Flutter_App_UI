@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 /// first study of stateful widget
 /// @since 4-27-2023
 /// @author Dounguk Kim
+
+
 void main(){
   runApp(App());
 }
@@ -18,7 +20,10 @@ class _AppState extends State<App>{
   int counter=0;
 
   void onClicked(){
-  counter+=1;
+    setState(() {//data is you
+      counter+=1;
+    });
+
 }
 
   @override
