@@ -1,1 +1,3 @@
-putting all small flutter projects in this repository
+This contains two project. 
+  1) App UI
+  2) stateful
