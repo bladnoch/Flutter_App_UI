@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// currency_card.dart : seting card preset
+/// @version v0.1
+/// @since 4/26/2023
+/// @author Dounguk Kim
+
 class CurrencyCard extends StatelessWidget{
 
   final String name, code, amount;
